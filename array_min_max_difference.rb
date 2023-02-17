@@ -7,3 +7,8 @@
 #   difference
 
 array = [12, 23, 41, 73, 19, 6]
+sort_array = array.sort
+p sort_array
+p lowest_number = sort_array[0]
+p highest_number = sort_array[-1]
+p difference = sort_array[-1] - sort_array[0]
